@@ -42,4 +42,15 @@ img{
     flex: 1;
 }
 
+@media screen and (max-width:576px) {
+    .row2, .row3{
+        flex-direction: column;
+    }
+    .row3-coantainer2{
+        grid-template-columns: repeat(1, 1fr);
+
+}
+
+
+
 
